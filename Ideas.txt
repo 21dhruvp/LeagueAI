@@ -9,6 +9,7 @@ Important factors that make a good League player:
         If they have recently kill someone, recognizing whether they should fast push into tower, or back to quickly cash in and get to lane
             This is determined based on wave state, so you should be able to recognize that
 
+Using Tensorflow Python API(wish it was C++ but its apparently unstable, so I'll hold off on that)
 Reinforcement Learner
     train the model by using rewards for doing good actions:
         last hitting
