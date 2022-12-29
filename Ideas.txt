@@ -1,0 +1,20 @@
+Important factors that make a good League player:
+    Ability to last hit
+        Being able to know when to hit a minion such that it is killed by you, and not your minions
+    Ability to create pressure
+        When a good trade is taken, position more forwards in order to create that pressure
+    Ability to recognize when they can take a positive trade
+        A positive trade is one where you would take less damage than the opponent in a fight, or you kill your opponent, while remaining alive.
+    Ability to tell when they should back to cash in
+        If they have recently kill someone, recognizing whether they should fast push into tower, or back to quickly cash in and get to lane
+            This is determined based on wave state, so you should be able to recognize that
+
+Reinforcement Learner
+    train the model by using rewards for doing good actions:
+        last hitting
+        killing the enemy
+        taking positive trades (you health loss < opponent health lost)
+        etc.
+
+Test and and keep training
+    ensure that the model is getting positive feedback when it does something correctly
